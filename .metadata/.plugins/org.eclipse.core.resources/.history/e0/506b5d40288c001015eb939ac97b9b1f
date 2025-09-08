@@ -1,0 +1,5 @@
+package com.theatreapp.service;
+
+public Interface ITheatreService {
+
+}

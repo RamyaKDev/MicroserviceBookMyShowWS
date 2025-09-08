@@ -1,0 +1,18 @@
+package com.theatreapp.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+
+public class ScreenDto {
+
+	private Integer screenId;
+
+	private String screenName;
+
+	private Theatre theatre;
+}

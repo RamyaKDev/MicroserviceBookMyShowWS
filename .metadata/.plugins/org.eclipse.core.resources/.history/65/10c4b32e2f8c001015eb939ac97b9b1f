@@ -1,0 +1,113 @@
+package com.theatreapp.service;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.theatreapp.exception.TheatreNotFoundException;
+import com.theatreapp.model.Theatre;
+import com.theatreapp.model.TheatreDto;
+import com.theatreapp.repository.ITheatreRepository;
+
+@Service
+public class TheatreServiceImpl implements ITheatreService{
+	
+		@Autowired
+		private ModelMapper mapper;
+
+		private ITheatreRepository theatreRepository;
+
+		public TheatreServiceImpl(ITheatreRepository theatreRepository) {
+			
+			this.theatreRepository = theatreRepository;
+		}
+		
+		@Override
+		public void addTheatre(TheatreDto theatreDto) {
+			Theatre theatre = mapper.map(theatreDto, Theatre.class);
+			theatreRepository.save(theatre);
+
+		}
+
+		@Override
+		public void updateTheatre(TheatreDto theatreDto) {
+			Theatre theatre = mapper.map(theatreDto, Theatre.class);
+			theatreRepository.save(theatre);
+		}
+
+		
+		 @Override
+		    public void deleteTheatre(int theatreId) {
+			 theatreRepository.deleteById(theatreId);
+		    }
+
+		@Override
+		public List<MovieDto> getAll() {
+			List<Movie> movies = movieRepository.findAll();
+			return movies.stream().map((movie) -> mapper.map(movie, MovieDto.class)).toList();
+		}
+
+		@Override
+		public MovieDto getByMovieId(int movieId) throws MovieNotFoundException {
+			Movie movie = movieRepository.findById(movieId).orElseThrow(() -> new MovieNotFoundException("invalid id"));
+			MovieDto movieDto = mapper.map(movie, MovieDto.class);
+			return movieDto;
+		}
+
+		@Override
+		public List<MovieDto> getByMovieTitle(String movieTitle) throws MovieNotFoundException {
+			List<Movie> movies = movieRepository.findByMovieTitle(movieTitle);
+			if (movies.isEmpty())
+				throw new MovieNotFoundException("No movie found in the specified movieTitle");
+			return movies.stream().map((movie) -> mapper.map(movie, MovieDto.class)).toList();
+
+		}
+
+		@Override
+		public List<MovieDto> getByGenres(String genres) throws MovieNotFoundException {
+			List<Movie> movies = movieRepository.findByGenres(genres);
+			if (movies.isEmpty())
+				throw new MovieNotFoundException("No movie found in the specified genres");
+			return movies.stream().map((movie) -> mapper.map(movie, MovieDto.class)).toList();
+		}
+
+		@Override
+		public List<MovieDto> getByLanguages(String languages) throws MovieNotFoundException {
+			List<Movie> movies = movieRepository.findByLanguages(languages);
+			if (movies.isEmpty())
+				throw new MovieNotFoundException("No movie found in the specified languages");
+			return movies.stream().map((movie) -> mapper.map(movie, MovieDto.class)).toList();
+		}
+		
+
+	    @Override
+	    public Theatre getTheatreById(Long id) {
+	        return repo.findById(id).orElse(null);
+	    }
+
+	    @Override
+	    public List<Theatre> getAllTheatres() {
+	        return repo.findAll();
+	    }
+
+	    @Override
+	    public List<Theatre> getTheatresByLocation(String location) {
+	        return repo.findByLocation(location);
+	    }
+
+	    
+
+	   
+		
+		
+		@Override
+		public TheatreDto getByTheatreId(int theatreId) throws TheatreNotFoundException {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+	}
+
+}

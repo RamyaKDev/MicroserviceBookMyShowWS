@@ -1,0 +1,23 @@
+package com.theatreapp.model;
+
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
+
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Screen {
+	@Id
+	@GeneratedValue(generator = "screen_gen", strategy = GenerationType.AUTO)
+	@SequenceGenerator(name = "screen_gen", sequenceName = "screen_seq", initialValue = 101, allocationSize = 1)
+	
+	
+	    private Integer screenId;
+
+	    private String screenName;
+
+	    private Integer theatreId; // reference to Theatre (foreign key across microservice)
+}

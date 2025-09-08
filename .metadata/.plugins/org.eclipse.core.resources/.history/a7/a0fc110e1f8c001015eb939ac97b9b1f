@@ -1,0 +1,13 @@
+package com.serviceapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BookingServiceRegistryApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookingServiceRegistryApplication.class, args);
+	}
+
+}

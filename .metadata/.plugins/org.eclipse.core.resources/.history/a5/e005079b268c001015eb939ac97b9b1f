@@ -1,0 +1,5 @@
+package com.theatreapp.controllers;
+
+public class TheatreController {
+
+}

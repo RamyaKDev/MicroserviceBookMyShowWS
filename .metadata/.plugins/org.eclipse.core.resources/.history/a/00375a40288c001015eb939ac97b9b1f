@@ -1,0 +1,93 @@
+package com.theatreapp.controllers;
+
+import com.theatreapp.service.ITheatreService;
+
+@RestController
+@RequestMapping("/theatres-service/v1")
+public class TheatreController {
+		@Autowired
+		private ITheatreService theatreService;
+
+		// http://localhost:8081/movies-service/v1/movies
+		@PostMapping("/movies")
+		ResponseEntity<Void> addMovie(@RequestBody MovieDto movieDto) {
+			movieService.addMovie(movieDto);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Movie Inserted");
+			return ResponseEntity.status(HttpStatus.CREATED).headers(headers).build();
+
+		}
+
+		// http://localhost:8081/movies-service/v1/movies
+		@PutMapping("/movies")
+		ResponseEntity<Void> updateMovie(@RequestBody MovieDto movieDto) {
+			movieService.updateMovie(movieDto);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Movie updated by Id");
+			return ResponseEntity.status(HttpStatus.ACCEPTED).headers(headers).build();
+
+		}
+
+		// http://localhost:8081/movies-service/v1/movies/movieId/2
+		@DeleteMapping("/movies/movieId/{movieId}")
+		ResponseEntity<Void> deleteMovie(@PathVariable int movieId) {
+			movieService.deleteMovie(movieId);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Movie deleted by id");
+			return ResponseEntity.status(HttpStatus.OK).headers(headers).build();
+
+		}
+
+		// http://localhost:8081/movies-service/v1/movies
+		@GetMapping("/movies")
+		ResponseEntity<List<MovieDto>> getAll() {
+			List<MovieDto> movieDto = movieService.getAll();
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Getting all movies");
+			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
+
+		}
+
+		// http://localhost:8081/movies-service/v1/movies/movieId?movieId=1
+		@GetMapping("/movies/movieId")
+		ResponseEntity<MovieDto> getByMovieId(@RequestParam int movieId) throws MovieNotFoundException {
+			MovieDto movieDto = movieService.getByMovieId(movieId);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Getting movie by id");
+			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
+		}
+
+		// http://localhost:8081/movies-service/v1/movies/title/3BHK
+		@GetMapping("/movies/title/{title}")
+		ResponseEntity<List<MovieDto>> getByMovieTitle(@PathVariable("title") String movieTitle)
+				throws MovieNotFoundException {
+			List<MovieDto> movieDto = movieService.getByMovieTitle(movieTitle);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Getting movie by movie title");
+			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
+
+		}
+
+		// http://localhost:8081/movies-service/v1/movies/genre/Action
+		@GetMapping("/movies/genre/{genres}")
+		ResponseEntity<List<MovieDto>> getByGenres(@PathVariable String genres) throws MovieNotFoundException {
+			List<MovieDto> movieDto = movieService.getByGenres(genres);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Getting movie by movie genre");
+			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
+
+		}
+
+		// http://localhost:8081/movies-service/v1/movies/language/Tamil
+		@GetMapping("/movies/language/{languages}")
+		ResponseEntity<List<MovieDto>> getByLanguages(@PathVariable String languages) throws MovieNotFoundException {
+			List<MovieDto> movieDto = movieService.getByLanguages(languages);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("info", "Getting movie by languages");
+			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
+
+		}
+
+	}
+
+}

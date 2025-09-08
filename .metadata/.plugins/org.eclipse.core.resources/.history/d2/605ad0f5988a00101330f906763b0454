@@ -1,0 +1,20 @@
+
+  
+
+server:
+  port: 8081
+
+#datasource specific properties
+spring:
+  application:
+    name: movie-catalog
+  datasource:
+    username: root
+    password: abcd
+    url: jdbc:mysql://localhost:3306/msmoviedb
+#jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
