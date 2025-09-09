@@ -28,9 +28,11 @@ public class ShowDto {
     private String showTime;   // Example: "2025-09-01 18:30"
 
     private double price;
+ // External service references (from Movie and Theatre)
 
+ 	private int movieId; // comes from Movie Service
+
+ 	private int theatreId; // comes from Theatre Service
     
-    private Movie movie;
-
-    private Theatre theatre;
+    
 }
