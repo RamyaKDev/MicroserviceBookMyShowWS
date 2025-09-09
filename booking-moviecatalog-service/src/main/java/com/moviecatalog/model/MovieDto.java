@@ -42,10 +42,7 @@ public class MovieDto {
 	@JsonFormat(pattern = "yyyy-MM-dd")
 	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
 	private LocalDate releasedate;
-	
 		
-	private List<Show> shows;
-	
 	private List<String> languages;// Tamil,Telugu,Hindi
 
 	private List<String> genres;

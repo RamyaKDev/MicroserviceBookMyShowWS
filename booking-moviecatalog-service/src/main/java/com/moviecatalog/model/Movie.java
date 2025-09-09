@@ -40,9 +40,6 @@ public class Movie {
 	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
 	private LocalDate releaseDate;
 
-	@OneToMany(mappedBy="movie", fetch=FetchType.LAZY)	
-	List<Show> shows;
-	
 	@ElementCollection
 	@CollectionTable(name = "language", joinColumns = @JoinColumn(name = "movie_id"))
 	private List<String> languages;// Tamil,Telugu,Hindi
