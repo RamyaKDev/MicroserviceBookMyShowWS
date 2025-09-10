@@ -36,7 +36,7 @@ public class ShowController {
 			return ResponseEntity.status(HttpStatus.CREATED).headers(headers).build();
 	    }
 
-	    // http://localhost:8083/shows-service/v1/shows/showId/1
+	    // http://localhost:8083/shows-service/v1/shows/showId/101
 	    @GetMapping("/shows/showId/{showId}")
 	    public ResponseEntity<ShowDto> getShowById(@PathVariable int showId) {
 	    	ShowDto showDto = showService.getShowById(showId);
@@ -60,7 +60,7 @@ public class ShowController {
 	        return ResponseEntity.ok(showService.getShowsByMovie(movieId));
 	    }
 
-	 // http://localhost:8083/shows-service/v1/shows/theatreId/1
+	 // http://localhost:8083/shows-service/v1/shows/theatreId/51
 	    @GetMapping("/shows/theatreId/{theatreId}")
 	    public ResponseEntity<List<ShowDto>> getShowsByScreen(@PathVariable int theatreId) {
 	        return ResponseEntity.ok(showService.getShowsByTheatre(theatreId));
