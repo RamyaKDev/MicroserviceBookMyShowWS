@@ -34,4 +34,6 @@ public class Show {
 	private int movieId; // comes from Movie Service
 
 	private int theatreId; // comes from Theatre Service
+	
+
 }

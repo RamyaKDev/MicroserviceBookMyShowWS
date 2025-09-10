@@ -40,7 +40,7 @@ public class TheatreController {
 		}
 
 		// http://localhost:8082/theatres-service/v1/theatres
-		@PutMapping("/movies")
+		@PutMapping("/theatres")
 		ResponseEntity<Void> updateTheatre(@RequestBody TheatreDto theatreDto) {
 			theatreService.updateTheatre(theatreDto);
 			HttpHeaders headers = new HttpHeaders();
@@ -49,7 +49,7 @@ public class TheatreController {
 
 		}
 
-		// http://localhost:8082/theatres-service/v1/theatres/theatreId/2
+		// http://localhost:8082/theatres-service/v1/theatres/theatreId/52
 		@DeleteMapping("/theatres/theatreId/{theatreId}")
 		ResponseEntity<Void> deleteTheatre(@PathVariable int theatreId) {
 			theatreService.deleteTheatre(theatreId);
@@ -61,7 +61,7 @@ public class TheatreController {
 
 		
 
-		// http://localhost:8082/theatres-service/v1/theatres/theatreId?theatreId=1
+		// http://localhost:8082/theatres-service/v1/theatres/theatreId?theatreId=51
 		@GetMapping("/theatres/theatreId")
 		ResponseEntity<TheatreDto> getByTheatreId(@RequestParam int theatreId) throws TheatreNotFoundException {
 			TheatreDto theatreDto = theatreService.getByTheatreId(theatreId);

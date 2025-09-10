@@ -30,9 +30,5 @@ public class Theatre {
 	private String theatreName;
 	private String location;	
 	
-	@OneToMany(cascade = CascadeType.ALL,fetch=FetchType.LAZY)
-	@ToString.Exclude
-	@JsonIgnore
-	private List<Show> shows;
 	
 }

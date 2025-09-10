@@ -19,8 +19,6 @@ public class TheatreDto {
 	private String theatreName;
 	private String location;
 	
-	@ToString.Exclude
-	@JsonIgnore
-	private List<Show> shows;
+	
 
 }
