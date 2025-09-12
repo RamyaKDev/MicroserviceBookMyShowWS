@@ -1,0 +1,28 @@
+
+jwt:
+  secret: securityjwt
+
+server:
+  port: 8085
+
+#datasource specific properties
+spring:
+  application:
+    name: user-service
+  datasource:
+    username: root
+    password: abcd
+    url: jdbc:mysql://localhost:3306/msmoviedb
+#jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true		
+eureka:
+  client:
+    service-url:
+      default-zone: http://eureka-server 		
+
+
+ 
