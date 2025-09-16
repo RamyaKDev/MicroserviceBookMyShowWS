@@ -22,13 +22,13 @@ import com.showapp.service.IShowService;
 @RequestMapping("/shows-service/v1/")
 public class ShowController {
 	
-	private IShowService showService;
+	private final IShowService showService;
 	 
 		public ShowController(IShowService showService) {	
 		this.showService = showService;
 	}
-		// http://localhost:8083/shows-service/v1/shows
-	    @PostMapping("/shows")
+		// http://localhost:8083/shows-service/v1/admin/shows
+	    @PostMapping("/admin/shows")
 	    public ResponseEntity<Void> addShow(@RequestBody ShowDto showDto) {
 	    	showService.addShow(showDto);
 	    	HttpHeaders headers = new HttpHeaders();
@@ -66,8 +66,8 @@ public class ShowController {
 	        return ResponseEntity.ok(showService.getShowsByTheatre(theatreId));
 	    }
 
-	    // http://localhost:8083/shows-service/v1/shows
-	    @PutMapping("/shows")
+	    // http://localhost:8083/shows-service/v1/admin/shows
+	    @PutMapping("/admin/shows")
 	    public ResponseEntity<ShowDto> updateShow(@RequestBody ShowDto showDto) {
 	    	showService.updateShow(showDto);
 			HttpHeaders headers = new HttpHeaders();

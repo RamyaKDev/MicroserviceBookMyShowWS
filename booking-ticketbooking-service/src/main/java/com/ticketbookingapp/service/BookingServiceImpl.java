@@ -48,17 +48,9 @@ public class BookingServiceImpl implements IBookingService{
 
 	@Override
 	public void createBooking(BookingDto bookingDto,String jwtToken) {
-//		 // Step 1: Get already booked seats for this show
-//        List<String> bookedSeats = getBookedSeats(bookingDto.getShowId());
-//
-//        // Step 2: Validate requested seats
-//        for (String seat : bookingDto.getSeatNumbers()) {
-//            if (bookedSeats.contains(seat)) {
-//                throw new ShowNotFoundException("Seat " + seat + " is already booked!");
-//            }
-//        } 
+
 		
-     // Step 3: Fetch show details from Show Service
+     // Step 1: Fetch show details from Show Service
         
         ShowDto show = getShowDetails(bookingDto.getShowId(), jwtToken);
        
@@ -66,7 +58,7 @@ public class BookingServiceImpl implements IBookingService{
             throw new ShowNotFoundException("Invalid showId: ");
         }
         
-        // Step: Check user requested seats are available for booking for the show
+        // Step 2: Check user requested seats are available for booking for the show
         if(!isSeatAvailable(show,bookingDto.getNumberOfSeats())) {
         	throw new ShowNotFoundException("Not enough seats are available ");
         }

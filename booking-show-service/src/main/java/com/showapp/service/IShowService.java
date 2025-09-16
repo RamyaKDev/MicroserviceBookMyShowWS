@@ -2,6 +2,7 @@ package com.showapp.service;
 
 import java.util.List;
 
+import com.showapp.model.Show;
 import com.showapp.model.ShowDto;
 
 public interface IShowService {
@@ -18,4 +19,6 @@ public interface IShowService {
 	void updateShow(ShowDto showDto);
 
 	void deleteShow(int showId);
+	
+	
 }

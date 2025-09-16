@@ -3,7 +3,6 @@ package com.showapp.service;
 import java.util.List;
 
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.showapp.exception.MovieNotFoundException;
@@ -19,15 +18,19 @@ import com.showapp.repository.IShowRepository;
 
 @Service
 public class ShowServiceImpl implements IShowService {
-	@Autowired
-	private ModelMapper mapper;
 
-	private IShowRepository showRepository;
-	private IMovieFeignClient movieClient;
-	private ITheatreFeignClient theatreClient;
+	private final ModelMapper mapper;
 
-	public ShowServiceImpl(IShowRepository showRepository, IMovieFeignClient movieClient,
+	private final IShowRepository showRepository;
+	private final IMovieFeignClient movieClient;
+	private final ITheatreFeignClient theatreClient;
+
+	
+
+	public ShowServiceImpl(ModelMapper mapper, IShowRepository showRepository, IMovieFeignClient movieClient,
 			ITheatreFeignClient theatreClient) {
+		super();
+		this.mapper = mapper;
 		this.showRepository = showRepository;
 		this.movieClient = movieClient;
 		this.theatreClient = theatreClient;
@@ -42,11 +45,12 @@ public class ShowServiceImpl implements IShowService {
 		Theatre theatre = theatreClient.getByTheatreId(showDto.getTheatreId());
 		if (movie == null)
 			throw new MovieNotFoundException("No movie found ");
-
+		
 		if (theatre == null)
 			throw new TheatreNotFoundException("No theatre found ");
 
 		Show show = mapper.map(showDto, Show.class);
+		
 		showRepository.save(show);
 
 	}
@@ -104,4 +108,7 @@ public class ShowServiceImpl implements IShowService {
 		showRepository.save(show);
 	}
 
+	
+
+	
 }

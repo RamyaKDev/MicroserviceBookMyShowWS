@@ -4,6 +4,10 @@ package com.showapp.model;
 
 
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.List;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -22,17 +26,15 @@ import lombok.NoArgsConstructor;
 @Data
 
 public class ShowDto {
-	
-    private Integer showId;
+	private Integer showId;
 
-    private String showTime;   // Example: "2025-09-01 18:30"
-
+	private String movieTitle;
+    private LocalDate showDate;
+    private LocalTime showTime;
     private double price;
- // External service references (from Movie and Theatre)
-
- 	private int movieId; // comes from Movie Service
-
- 	private int theatreId; // comes from Theatre Service
-    
+    private int movieId;
+    private int theatreId;
+    private int totalNoOfSeats;
+   // private List<String> bookedSeats ;
     
 }
