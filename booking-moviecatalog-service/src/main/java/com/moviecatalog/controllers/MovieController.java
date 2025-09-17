@@ -2,7 +2,7 @@ package com.moviecatalog.controllers;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,11 +24,15 @@ import com.moviecatalog.service.IMovieService;
 @RestController
 @RequestMapping("/movies-service/v1")
 public class MovieController {
-	@Autowired
-	private IMovieService movieService;
+	private final IMovieService movieService ;
 
-	// http://localhost:8081/movies-service/v1/movies
-	@PostMapping("/movies")
+	public MovieController(IMovieService movieService) {
+		super();
+		this.movieService = movieService;
+	}
+
+	// http://localhost:8081/movies-service/v1/admin/movies
+	@PostMapping("/admin/movies")
 	ResponseEntity<Void> addMovie(@RequestBody MovieDto movieDto) {
 		movieService.addMovie(movieDto);
 		HttpHeaders headers = new HttpHeaders();
@@ -37,8 +41,8 @@ public class MovieController {
 
 	}
 
-	// http://localhost:8081/movies-service/v1/movies
-	@PutMapping("/movies")
+	// http://localhost:8081/movies-service/v1/admin/movies
+	@PutMapping("/admin/movies")
 	ResponseEntity<Void> updateMovie(@RequestBody MovieDto movieDto) {
 		movieService.updateMovie(movieDto);
 		HttpHeaders headers = new HttpHeaders();
@@ -48,7 +52,7 @@ public class MovieController {
 	}
 
 	// http://localhost:8081/movies-service/v1/movies/movieId/2
-	@DeleteMapping("/movies/movieId/{movieId}")
+	@DeleteMapping("/admin/movies/movieId/{movieId}")
 	ResponseEntity<Void> deleteMovie(@PathVariable int movieId) {
 		movieService.deleteMovie(movieId);
 		HttpHeaders headers = new HttpHeaders();

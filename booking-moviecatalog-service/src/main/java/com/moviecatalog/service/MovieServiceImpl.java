@@ -3,7 +3,7 @@ package com.moviecatalog.service;
 import java.util.List;
 
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import com.moviecatalog.exception.MovieNotFoundException;
@@ -13,15 +13,18 @@ import com.moviecatalog.repository.IMovieRepository;
 
 @Service
 public class MovieServiceImpl implements IMovieService {
-	@Autowired
-	private ModelMapper mapper;
 
-	private IMovieRepository movieRepository;
+	private final ModelMapper mapper;
 
-	public MovieServiceImpl(IMovieRepository movieRepository) {
-		super();
+	private final IMovieRepository movieRepository;
+
+	public MovieServiceImpl(ModelMapper mapper, IMovieRepository movieRepository) {
+		
+		this.mapper = mapper;
 		this.movieRepository = movieRepository;
 	}
+
+	
 
 	@Override
 	public void addMovie(MovieDto movieDto) {

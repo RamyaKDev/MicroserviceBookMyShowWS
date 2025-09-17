@@ -1,6 +1,6 @@
 package com.moviecatalog.exception;
 
-public class MovieNotFoundException extends Exception{
+public class MovieNotFoundException extends RuntimeException{
 
 	/**
 	 * 
