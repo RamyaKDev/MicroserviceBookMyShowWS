@@ -18,7 +18,7 @@ public class TheatreDto {
 	private Integer theatreId;
 	private String theatreName;
 	private String location;
-	
+//	private int theatreCapacity;
 	
 
 }

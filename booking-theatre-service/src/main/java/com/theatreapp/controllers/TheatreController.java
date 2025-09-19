@@ -26,11 +26,15 @@ import com.theatreapp.service.ITheatreService;
 @RestController
 @RequestMapping("/theatres-service/v1")
 public class TheatreController {
-		@Autowired
-		private ITheatreService theatreService;
 		
-		// http://localhost:8082/theatres-service/v1/theatres
-		@PostMapping("/theatres")
+		public TheatreController(ITheatreService theatreService) {
+		super();
+		this.theatreService = theatreService;
+	}
+		private final ITheatreService theatreService;
+		
+		// http://localhost:8082/theatres-service/v1/admin/theatres
+		@PostMapping("/admin/theatres")
 		ResponseEntity<Void> addTheatre(@RequestBody TheatreDto theatreDto) {
 			theatreService.addTheatre(theatreDto);
 			HttpHeaders headers = new HttpHeaders();
@@ -39,8 +43,8 @@ public class TheatreController {
 
 		}
 
-		// http://localhost:8082/theatres-service/v1/theatres
-		@PutMapping("/theatres")
+		// http://localhost:8082/theatres-service/v1/admin/theatres
+		@PutMapping("/admin/theatres")
 		ResponseEntity<Void> updateTheatre(@RequestBody TheatreDto theatreDto) {
 			theatreService.updateTheatre(theatreDto);
 			HttpHeaders headers = new HttpHeaders();
@@ -49,8 +53,8 @@ public class TheatreController {
 
 		}
 
-		// http://localhost:8082/theatres-service/v1/theatres/theatreId/52
-		@DeleteMapping("/theatres/theatreId/{theatreId}")
+		// http://localhost:8082/theatres-service/v1/admin/theatres/theatreId/52
+		@DeleteMapping("/admin/theatres/theatreId/{theatreId}")
 		ResponseEntity<Void> deleteTheatre(@PathVariable int theatreId) {
 			theatreService.deleteTheatre(theatreId);
 			HttpHeaders headers = new HttpHeaders();

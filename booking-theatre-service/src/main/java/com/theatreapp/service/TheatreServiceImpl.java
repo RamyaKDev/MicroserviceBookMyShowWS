@@ -14,16 +14,19 @@ import com.theatreapp.repository.ITheatreRepository;
 @Service
 public class TheatreServiceImpl implements ITheatreService{
 	
-		@Autowired
-		private ModelMapper mapper;
+	
+		private final ModelMapper mapper;
 
-		private ITheatreRepository theatreRepository;
+		private final ITheatreRepository theatreRepository;
 
-		public TheatreServiceImpl(ITheatreRepository theatreRepository) {
-			
+		
+		
+		public TheatreServiceImpl(ModelMapper mapper, ITheatreRepository theatreRepository) {
+			super();
+			this.mapper = mapper;
 			this.theatreRepository = theatreRepository;
 		}
-		
+
 		@Override
 		public void addTheatre(TheatreDto theatreDto) {
 			Theatre theatre = mapper.map(theatreDto, Theatre.class);
