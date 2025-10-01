@@ -41,9 +41,12 @@ public class Booking {
 
 	@Enumerated(EnumType.STRING)
 	private BookingStatus bookingStatus;
+	
+	private int showId;   // reference to Show service
+    private int userId;   // reference to User service
 
-	private UserDto user; // reference to User Service
-	private ShowDto show; // reference to Show Service
+//	private User user; // reference to User Service
+//	private Show show; // reference to Show Service
 
 	@ElementCollection
 	@CollectionTable(name = "SeatNumbers", joinColumns = @JoinColumn(name = "booking_id"))

@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.ticketbookingapp.model.Booking;
 import com.ticketbookingapp.model.BookingStatus;
-import com.ticketbookingapp.model.ShowDto;
+
 
 public interface IBookingRepository extends JpaRepository<Booking, Integer>{
 	  	List<Booking> findByUserId(int userId);

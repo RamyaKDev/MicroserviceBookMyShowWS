@@ -41,7 +41,7 @@ public class Show {
 	private String movieTitle;
 	@JsonFormat(pattern = "yyyy-MM-dd")
 	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-    private LocalDate showDateTime;
+    private LocalDate showDate;
     private LocalTime showTime;
     private double price;
     private int movieId;

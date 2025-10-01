@@ -1,14 +1,15 @@
 package com.ticketbookingapp.service;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.chrono.ChronoLocalDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.List;
-import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -16,16 +17,16 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-
 import com.ticketbookingapp.exception.BookingNotFoundException;
-import com.ticketbookingapp.exception.SeatNotFoundException;
 import com.ticketbookingapp.exception.ShowNotFoundException;
 import com.ticketbookingapp.model.Booking;
 import com.ticketbookingapp.model.BookingDto;
 import com.ticketbookingapp.model.BookingStatus;
-import com.ticketbookingapp.model.ShowDto;
-import com.ticketbookingapp.model.UserDto;
+import com.ticketbookingapp.model.Show;
+import com.ticketbookingapp.model.User;
 import com.ticketbookingapp.repository.IBookingRepository;
+
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 
 @Service
 public class BookingServiceImpl implements IBookingService{
@@ -47,12 +48,13 @@ public class BookingServiceImpl implements IBookingService{
 	}
 
 	@Override
-	public void createBooking(BookingDto bookingDto,String jwtToken) {
+	@CircuitBreaker(name = "booking-cbservice",fallbackMethod = "fallbackcreatebooking")
+	public BookingDto createBooking(BookingDto bookingDto,String jwtToken) {
 
 		
      // Step 1: Fetch show details from Show Service
         
-        ShowDto show = getShowDetails(bookingDto.getShowId(), jwtToken);
+        Show show = getShowDetails(bookingDto.getShowId(), jwtToken);
        
         if (show == null) {
             throw new ShowNotFoundException("Invalid showId: ");
@@ -75,7 +77,7 @@ public class BookingServiceImpl implements IBookingService{
         
         //Step 4:  Call User Service to validate user
         
-        UserDto user = getUserDetails(bookingDto.getUserId(), jwtToken);
+        User user = getUserDetails(bookingDto.getUserId(), jwtToken);
 
         if (user == null) {
             throw new ShowNotFoundException ("Invalid userId: ");
@@ -86,20 +88,24 @@ public class BookingServiceImpl implements IBookingService{
         
        //Step 6: setting values to booking class
         Booking booking=new Booking();
-        booking.setUser(user);        
-        booking.setShow(show);
+        booking.setUserId(user.getUserId());
+        booking.setShowId(show.getShowId());
+//        booking.setUser(user);        
+//        booking.setShow(show);
         booking.setNumberOfSeats(bookingDto.getNumberOfSeats());
         booking.setBookingTime(LocalDateTime.now());
         booking.setTotalPrice(price);
         booking.setBookingStatus(BookingStatus.PENDING);
         
-		 bookingRepository.save(booking);
+		Booking booked= bookingRepository.save(booking);
+		// convert to dto and send to client
+		return mapper.map(booked, BookingDto.class);
 		
 	}
 	
 	//check already occupied seats A1,A2,A3 again user requested to book
 	//If again user wants to book A1,A2 throw exception
-	 public void validateDuplicateSeats(ShowDto showDto, List<String> seatNumbers) {
+	 public void validateDuplicateSeats(Show showDto, List<String> seatNumbers) {
 	
      // Step 1: Get bookings for this show from DB
      List<Booking> bookings = bookingRepository.findByShowId(showDto.getShowId());
@@ -126,7 +132,7 @@ public class BookingServiceImpl implements IBookingService{
     //user wants to book 4 tickets.. already 90 tickets are booked.. here checking available seats
     //100-90=10 left so 10>4 condition true so user can book
     //if user wants to book 15 10>15 condition false so he cant book.
-	 private boolean isSeatAvailable(ShowDto showDto, int numberOfSeats) {
+	 private boolean isSeatAvailable(Show showDto, int numberOfSeats) {
 		 // Step 1: Get bookings for this show from DB
 	        List<Booking> bookings = bookingRepository.findByShowId(showDto.getShowId());
 	     
@@ -139,32 +145,39 @@ public class BookingServiceImpl implements IBookingService{
 	        return (showDto.getTotalNoOfSeats() - bookedSeats) >= numberOfSeats;
 	}
 
+	//fallback method
+		//Here return Type CartDto is changed to Type 
+		public BookingDto fallbackAddToCart(Exception e) {
+			System.out.println(e.getMessage());
+			return new BookingDto();
+			//return new Failure("Technical Error");
+		}
+		
 	
-	
-	 private ShowDto getShowDetails(int showId, String jwtToken) {
+	 private Show getShowDetails(int showId, String jwtToken) {
 	        HttpHeaders headers = new HttpHeaders();
 	        headers.set("Authorization", jwtToken);
 	        HttpEntity<String> entity = new HttpEntity<>(headers);
 
-	        ResponseEntity<ShowDto> response = restTemplate.exchange(
+	        ResponseEntity<Show> response = restTemplate.exchange(
 	        		SHOWBASEURL + showId,
 	                HttpMethod.GET,
 	                entity,
-	                ShowDto.class
+	                Show.class
 	        );
 	       return response.getBody();
     
 	    }
-	private UserDto getUserDetails(int userId, String jwtToken) {
+	private User getUserDetails(int userId, String jwtToken) {
         HttpHeaders headers = new HttpHeaders();
         headers.set("Authorization", jwtToken); // already contains "Bearer xxx"
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
-        ResponseEntity<UserDto> response = restTemplate.exchange(
+        ResponseEntity<User> response = restTemplate.exchange(
         		USERBASEURL + userId,
                 HttpMethod.GET,
                 entity,
-                UserDto.class
+                User.class
         );
 
         return response.getBody();
@@ -213,33 +226,48 @@ public class BookingServiceImpl implements IBookingService{
 	}
 
 	@Override
-	public void deleteBooking(int bookingId) {
+	public String cancelBooking(int bookingId, String jwtToken) {
+//		A Booking Cancellation usually has some validation rules, like:
+//			1. Don’t allow cancellation after the show has started.
+//			2. Don’t allow cancellation for already canceled bookings.
+//			Allow cancellation only within X hours before the show.
 		Booking booking =  bookingRepository.findById(bookingId)
 				.orElseThrow(() -> new BookingNotFoundException("invalid id"));
 		
 		//validating the cancellation
-		validateCancellation(booking);
-		
+		 // Validation 1: Already cancelled?
+		BookingStatus currentStatus=booking.getBookingStatus();
+        if (currentStatus==BookingStatus.CANCELLED) {
+            return "Booking already cancelled!";
+        }
+
+        // Validation 2:  Check Show timing
+        		//  Fetch show details from Show Service and compare show date with current date
+        //
+        
+        Show show = getShowDetails(booking.getShowId(), jwtToken);
+       
+        if (show == null) {
+            throw new ShowNotFoundException("Show not found for booking ");
+        }
+        
+        LocalTime now = LocalTime.now();
+        if (show.getShowTime().isBefore(now)) {
+            throw new ShowNotFoundException("Cannot cancel past or ongoing shows!");
+        }
+        
+      //if show time is 9pm, we can cancel it before 7 pm(deadline).. once 7pm is passed we cant cancel it.
+    
+         if (ChronoUnit.HOURS.between(LocalDateTime.now(), show.getShowTime()) < 2) {
+             throw new RuntimeException("Cancellation only allowed 2 hours before show");
+         }
+
 		booking.setBookingStatus(BookingStatus.CANCELLED);
 		bookingRepository.save(booking);
+		 return "Booking cancelled successfully";
 	}
 
-	private void validateCancellation(Booking booking) {
-	//if show time is 9pm, we can cancel it before 7 pm(deadline).. once 7pm is passed we cant cancel it.
-		LocalDateTime showTime= booking.getShow().getShowTime();
-	LocalDateTime deadlineTime=	showTime.minusHours(2);
 	
-	//current time is 8.30 pm means it passed deadline
-	//so cannot cancel booking
-	if(LocalDateTime.now().isAfter(deadlineTime)) {
-		throw new BookingNotFoundException("cannot cance the booking");
-	}
-	//booking status is cancelled we cant cancel again
-	if(booking.getBookingStatus()==BookingStatus.CANCELLED) {
-		throw new BookingNotFoundException("Booking Already cancelled");
-		
-	}
-	}
 
 	@Override
 	public List<BookingDto> getByBookingStatus(BookingStatus bookingStatus) {

@@ -7,12 +7,12 @@ import com.ticketbookingapp.model.BookingStatus;
 
 
 public interface IBookingService {
-	void createBooking(BookingDto bookingDto,String jwtToken);
+	BookingDto createBooking(BookingDto bookingDto,String jwtToken);
 	BookingDto getByBookingId(int bookingId);
 	List<BookingDto> getBookingsByUser(int userId);
 	List<BookingDto> getBookingsByShow(int showId) ;
 	void updateBooking(BookingDto bookingDto);
-	void deleteBooking(int bookingId);
+	String cancelBooking(int bookingId,String jwtToken);
 	List<BookingDto> getByBookingStatus(BookingStatus bookingStatus);
 	
 }

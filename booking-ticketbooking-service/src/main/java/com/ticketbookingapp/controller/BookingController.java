@@ -28,10 +28,10 @@ public class BookingController {
 	   
 	 // http://localhost:8084/bookings-service/v1/admin/bookings
 	    @PostMapping("/admin/bookings")
-	    public ResponseEntity<Void> createBooking(@RequestBody BookingDto bookingDto,@RequestHeader("Authorization") String token) {
+	    public ResponseEntity<BookingDto> createBooking(@RequestBody BookingDto bookingDto,@RequestHeader("Authorization") String token) {
 	    	System.out.println(bookingDto);
-	    	bookingService.createBooking(bookingDto, token);
-	        return ResponseEntity.ok().build();
+	    	BookingDto booking=bookingService.createBooking(bookingDto, token);
+	        return ResponseEntity.ok(booking);
 	    }
 
 	    // http://localhost:8084/bookings-service/v1/bookings/bookingId/1
@@ -74,8 +74,9 @@ public class BookingController {
 
 	    // http://localhost:8084/bookings-service/v1/admin/bookings/bookingId/1
 	    @DeleteMapping("/admin/bookings/bookingId/{bookingId}")
-	    public ResponseEntity<Void> deleteBooking(@PathVariable int bookingId) {
-	    	bookingService.deleteBooking(bookingId);
-	        return ResponseEntity.noContent().build();
+	    public ResponseEntity<String> cancelBooking(@PathVariable int bookingId,@RequestHeader("Authorization") String token) {
+	    	 String response =bookingService.cancelBooking(bookingId, token);
+	    	
+	         return ResponseEntity.ok(response);
 	    }
 }

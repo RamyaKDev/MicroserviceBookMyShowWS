@@ -1478,3 +1478,803 @@ Caused by: java.lang.IllegalStateException: Unexpected null value present!
 2025-09-15 23:09:56,240 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-09-15 23:09:56,290 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-09-15 23:09:56,304 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-29 15:45:10,811 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-29 15:53:49,822 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 15:53:49,843 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 15:53:49,849 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-moviecatalog-service\src\test\resources
+2025-09-29 15:53:51,720 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 15:53:51,762 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 15:53:51,767 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-29 15:53:53,283 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 15:53:53,328 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 15:53:53,344 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-09-29 22:01:03,082 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:01:03,109 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:01:03,122 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-show-service\src\test\resources
+2025-09-29 22:07:44,715 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:07:44,727 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:07:44,730 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-theatre-service\src\test\resources
+2025-09-29 22:11:29,540 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:11:29,553 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:11:29,558 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-29 22:16:52,567 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:16:52,575 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:16:52,578 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-09-29 22:44:39,160 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.5.6/spring-boot-starter-parent-3.5.6.pom
+2025-09-29 22:44:39,216 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.5.6/spring-boot-starter-parent-3.5.6.pom
+2025-09-29 22:44:39,354 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.5.6/spring-boot-dependencies-3.5.6.pom
+2025-09-29 22:44:39,410 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.5.6/spring-boot-dependencies-3.5.6.pom
+2025-09-29 22:44:39,762 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/15.2.6.Final/infinispan-bom-15.2.6.Final.pom
+2025-09-29 22:44:39,789 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/15.2.6.Final/infinispan-bom-15.2.6.Final.pom
+2025-09-29 22:44:39,864 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/15.2.6.Final/infinispan-build-configuration-parent-15.2.6.Final.pom
+2025-09-29 22:44:39,868 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/15.2.6.Final/infinispan-build-configuration-parent-15.2.6.Final.pom
+2025-09-29 22:44:40,172 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.27/jetty-ee10-bom-12.0.27.pom
+2025-09-29 22:44:40,225 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.27/jetty-ee10-bom-12.0.27.pom
+2025-09-29 22:44:40,396 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.27/jetty-bom-12.0.27.pom
+2025-09-29 22:44:40,404 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.27/jetty-bom-12.0.27.pom
+2025-09-29 22:44:40,579 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.15.4/micrometer-bom-1.15.4.pom
+2025-09-29 22:44:40,583 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.15.4/micrometer-bom-1.15.4.pom
+2025-09-29 22:44:40,786 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.5.4/micrometer-tracing-bom-1.5.4.pom
+2025-09-29 22:44:40,835 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.5.4/micrometer-tracing-bom-1.5.4.pom
+2025-09-29 22:44:41,108 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.127.Final/netty-bom-4.1.127.Final.pom
+2025-09-29 22:44:41,114 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.127.Final/netty-bom-4.1.127.Final.pom
+2025-09-29 22:44:41,323 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.10/reactor-bom-2024.0.10.pom
+2025-09-29 22:44:41,331 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.10/reactor-bom-2024.0.10.pom
+2025-09-29 22:44:41,400 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.2.7/spring-amqp-bom-3.2.7.pom
+2025-09-29 22:44:41,408 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.2.7/spring-amqp-bom-3.2.7.pom
+2025-09-29 22:44:41,707 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/5.2.3/spring-batch-bom-5.2.3.pom
+2025-09-29 22:44:41,756 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/5.2.3/spring-batch-bom-5.2.3.pom
+2025-09-29 22:44:42,019 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.0.4/spring-data-bom-2025.0.4.pom
+2025-09-29 22:44:42,069 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.0.4/spring-data-bom-2025.0.4.pom
+2025-09-29 22:44:42,135 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.11/spring-framework-bom-6.2.11.pom
+2025-09-29 22:44:42,140 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.11/spring-framework-bom-6.2.11.pom
+2025-09-29 22:44:42,192 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.5.2/spring-integration-bom-6.5.2.pom
+2025-09-29 22:44:42,196 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.5.2/spring-integration-bom-6.5.2.pom
+2025-09-29 22:44:42,248 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.2.10/spring-pulsar-bom-1.2.10.pom
+2025-09-29 22:44:42,251 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.2.10/spring-pulsar-bom-1.2.10.pom
+2025-09-29 22:44:42,547 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.5.5/spring-security-bom-6.5.5.pom
+2025-09-29 22:44:42,615 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.5.5/spring-security-bom-6.5.5.pom
+2025-09-29 22:44:48,406 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.6/spring-boot-maven-plugin-3.5.6.pom
+2025-09-29 22:44:48,414 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.6/spring-boot-maven-plugin-3.5.6.pom
+2025-09-29 22:44:48,673 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.6/spring-boot-maven-plugin-3.5.6.jar
+2025-09-29 22:44:48,755 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.6/spring-boot-maven-plugin-3.5.6.jar
+2025-09-29 22:44:49,140 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.jar
+2025-09-29 22:44:49,149 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.jar
+2025-09-29 22:44:49,349 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.configserver:booking-config-server:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-config-server\pom.xml.
+2025-09-29 22:44:49,592 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.6/spring-boot-autoconfigure-3.5.6.pom
+2025-09-29 22:44:49,639 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.6/spring-boot-autoconfigure-3.5.6.pom
+2025-09-29 22:44:49,797 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.6/spring-boot-3.5.6.pom
+2025-09-29 22:44:49,846 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.6/spring-boot-3.5.6.pom
+2025-09-29 22:44:50,003 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.11/spring-core-6.2.11.pom
+2025-09-29 22:44:50,052 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.11/spring-core-6.2.11.pom
+2025-09-29 22:44:50,208 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.11/spring-jcl-6.2.11.pom
+2025-09-29 22:44:50,259 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.11/spring-jcl-6.2.11.pom
+2025-09-29 22:44:50,516 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.11/spring-context-6.2.11.pom
+2025-09-29 22:44:50,565 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.11/spring-context-6.2.11.pom
+2025-09-29 22:44:50,720 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.11/spring-aop-6.2.11.pom
+2025-09-29 22:44:50,770 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.11/spring-aop-6.2.11.pom
+2025-09-29 22:44:50,925 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.11/spring-beans-6.2.11.pom
+2025-09-29 22:44:50,977 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.11/spring-beans-6.2.11.pom
+2025-09-29 22:44:51,130 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.11/spring-expression-6.2.11.pom
+2025-09-29 22:44:51,141 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.11/spring-expression-6.2.11.pom
+2025-09-29 22:44:51,495 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.4/micrometer-observation-1.15.4.pom
+2025-09-29 22:44:51,502 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.4/micrometer-observation-1.15.4.pom
+2025-09-29 22:44:51,682 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.4/micrometer-commons-1.15.4.pom
+2025-09-29 22:44:51,689 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.4/micrometer-commons-1.15.4.pom
+2025-09-29 22:44:51,983 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.6/spring-boot-starter-3.5.6.pom
+2025-09-29 22:44:51,989 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.6/spring-boot-starter-3.5.6.pom
+2025-09-29 22:44:52,174 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.6/spring-boot-starter-logging-3.5.6.pom
+2025-09-29 22:44:52,180 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.6/spring-boot-starter-logging-3.5.6.pom
+2025-09-29 22:44:52,401 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.5/spring-security-crypto-6.5.5.pom
+2025-09-29 22:44:52,409 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.5/spring-security-crypto-6.5.5.pom
+2025-09-29 22:44:52,705 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.11/spring-web-6.2.11.pom
+2025-09-29 22:44:52,710 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.11/spring-web-6.2.11.pom
+2025-09-29 22:44:52,924 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.5/httpcore5-5.3.5.pom
+2025-09-29 22:44:52,930 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.5/httpcore5-5.3.5.pom
+2025-09-29 22:44:53,177 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.3.5/httpcore5-parent-5.3.5.pom
+2025-09-29 22:44:53,228 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.3.5/httpcore5-parent-5.3.5.pom
+2025-09-29 22:44:53,383 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.5/httpcore5-h2-5.3.5.pom
+2025-09-29 22:44:53,391 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.5/httpcore5-h2-5.3.5.pom
+2025-09-29 22:44:53,484 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.6/spring-boot-starter-web-3.5.6.pom
+2025-09-29 22:44:53,495 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.6/spring-boot-starter-web-3.5.6.pom
+2025-09-29 22:44:53,597 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.6/spring-boot-starter-json-3.5.6.pom
+2025-09-29 22:44:53,603 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.6/spring-boot-starter-json-3.5.6.pom
+2025-09-29 22:44:53,690 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.6/spring-boot-starter-tomcat-3.5.6.pom
+2025-09-29 22:44:53,699 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.6/spring-boot-starter-tomcat-3.5.6.pom
+2025-09-29 22:44:53,795 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.46/tomcat-embed-core-10.1.46.pom
+2025-09-29 22:44:53,801 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.46/tomcat-embed-core-10.1.46.pom
+2025-09-29 22:44:54,037 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.46/tomcat-embed-el-10.1.46.pom
+2025-09-29 22:44:54,044 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.46/tomcat-embed-el-10.1.46.pom
+2025-09-29 22:44:54,303 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.46/tomcat-embed-websocket-10.1.46.pom
+2025-09-29 22:44:54,352 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.46/tomcat-embed-websocket-10.1.46.pom
+2025-09-29 22:44:54,509 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.11/spring-webmvc-6.2.11.pom
+2025-09-29 22:44:54,559 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.11/spring-webmvc-6.2.11.pom
+2025-09-29 22:44:54,858 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.5.6/spring-boot-starter-validation-3.5.6.pom
+2025-09-29 22:44:54,863 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.5.6/spring-boot-starter-validation-3.5.6.pom
+2025-09-29 22:44:55,141 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.6/spring-boot-starter-test-3.5.6.pom
+2025-09-29 22:44:55,147 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.6/spring-boot-starter-test-3.5.6.pom
+2025-09-29 22:44:55,225 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.6/spring-boot-test-3.5.6.pom
+2025-09-29 22:44:55,231 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.6/spring-boot-test-3.5.6.pom
+2025-09-29 22:44:55,327 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.11/spring-test-6.2.11.pom
+2025-09-29 22:44:55,335 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.11/spring-test-6.2.11.pom
+2025-09-29 22:44:55,431 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.6/spring-boot-test-autoconfigure-3.5.6.pom
+2025-09-29 22:44:55,437 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.6/spring-boot-test-autoconfigure-3.5.6.pom
+2025-09-29 22:44:55,532 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.pom
+2025-09-29 22:44:55,540 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.pom
+2025-09-29 22:44:55,840 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.pom
+2025-09-29 22:44:55,890 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.pom
+2025-09-29 22:44:56,043 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.10.4/xmlunit-parent-2.10.4.pom
+2025-09-29 22:44:56,073 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.10.4/xmlunit-parent-2.10.4.pom
+2025-09-29 22:44:56,250 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.6/spring-boot-autoconfigure-3.5.6.jar
+2025-09-29 22:44:56,366 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.6/spring-boot-autoconfigure-3.5.6.jar
+2025-09-29 22:44:56,565 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.11/spring-beans-6.2.11.jar
+2025-09-29 22:44:56,639 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.6/spring-boot-starter-web-3.5.6.jar
+2025-09-29 22:44:56,644 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.11/spring-beans-6.2.11.jar
+2025-09-29 22:44:56,645 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.6/spring-boot-starter-web-3.5.6.jar
+2025-09-29 22:44:56,658 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.11/spring-web-6.2.11.jar
+2025-09-29 22:44:56,663 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.4/micrometer-commons-1.15.4.jar
+2025-09-29 22:44:56,682 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.4/micrometer-observation-1.15.4.jar
+2025-09-29 22:44:56,684 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.4/micrometer-commons-1.15.4.jar
+2025-09-29 22:44:56,687 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.6/spring-boot-starter-tomcat-3.5.6.jar
+2025-09-29 22:44:56,691 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.6/spring-boot-starter-tomcat-3.5.6.jar
+2025-09-29 22:44:56,692 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.6/spring-boot-starter-json-3.5.6.jar
+2025-09-29 22:44:56,694 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.6/spring-boot-starter-json-3.5.6.jar
+2025-09-29 22:44:56,712 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.4/micrometer-observation-1.15.4.jar
+2025-09-29 22:44:56,735 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.46/tomcat-embed-core-10.1.46.jar
+2025-09-29 22:44:56,740 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.46/tomcat-embed-websocket-10.1.46.jar
+2025-09-29 22:44:56,748 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.11/spring-webmvc-6.2.11.jar
+2025-09-29 22:44:56,753 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.46/tomcat-embed-websocket-10.1.46.jar
+2025-09-29 22:44:56,760 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.11/spring-aop-6.2.11.jar
+2025-09-29 22:44:56,790 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.11/spring-web-6.2.11.jar
+2025-09-29 22:44:56,809 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.11/spring-context-6.2.11.jar
+2025-09-29 22:44:56,811 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.11/spring-aop-6.2.11.jar
+2025-09-29 22:44:56,837 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.11/spring-expression-6.2.11.jar
+2025-09-29 22:44:56,839 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.11/spring-context-6.2.11.jar
+2025-09-29 22:44:56,846 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.11/spring-expression-6.2.11.jar
+2025-09-29 22:44:56,861 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.5.6/spring-boot-starter-validation-3.5.6.jar
+2025-09-29 22:44:56,865 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.11/spring-webmvc-6.2.11.jar
+2025-09-29 22:44:56,867 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.5.6/spring-boot-starter-validation-3.5.6.jar
+2025-09-29 22:44:56,891 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.46/tomcat-embed-core-10.1.46.jar
+2025-09-29 22:44:56,892 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.46/tomcat-embed-el-10.1.46.jar
+2025-09-29 22:44:56,891 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.5/spring-security-crypto-6.5.5.jar
+2025-09-29 22:44:56,898 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.5/spring-security-crypto-6.5.5.jar
+2025-09-29 22:44:56,902 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.46/tomcat-embed-el-10.1.46.jar
+2025-09-29 22:44:56,908 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.5/httpcore5-5.3.5.jar
+2025-09-29 22:44:56,927 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.5/httpcore5-h2-5.3.5.jar
+2025-09-29 22:44:56,938 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.6/spring-boot-3.5.6.jar
+2025-09-29 22:44:56,942 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.5/httpcore5-h2-5.3.5.jar
+2025-09-29 22:44:56,946 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.6/spring-boot-starter-test-3.5.6.jar
+2025-09-29 22:44:56,949 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.6/spring-boot-starter-test-3.5.6.jar
+2025-09-29 22:44:56,951 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.6/spring-boot-starter-3.5.6.jar
+2025-09-29 22:44:56,955 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.6/spring-boot-starter-3.5.6.jar
+2025-09-29 22:44:56,969 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.5/httpcore5-5.3.5.jar
+2025-09-29 22:44:56,978 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.6/spring-boot-3.5.6.jar
+2025-09-29 22:44:56,986 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.6/spring-boot-starter-logging-3.5.6.jar
+2025-09-29 22:44:56,988 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.6/spring-boot-starter-logging-3.5.6.jar
+2025-09-29 22:44:56,996 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.6/spring-boot-test-3.5.6.jar
+2025-09-29 22:44:57,003 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.6/spring-boot-test-3.5.6.jar
+2025-09-29 22:44:57,006 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar
+2025-09-29 22:44:57,017 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.6/spring-boot-test-autoconfigure-3.5.6.jar
+2025-09-29 22:44:57,019 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar
+2025-09-29 22:44:57,026 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.6/spring-boot-test-autoconfigure-3.5.6.jar
+2025-09-29 22:44:57,034 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.11/spring-jcl-6.2.11.jar
+2025-09-29 22:44:57,038 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.11/spring-jcl-6.2.11.jar
+2025-09-29 22:44:57,042 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.11/spring-core-6.2.11.jar
+2025-09-29 22:44:57,053 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.11/spring-test-6.2.11.jar
+2025-09-29 22:44:57,083 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.11/spring-core-6.2.11.jar
+2025-09-29 22:44:57,087 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar
+2025-09-29 22:44:57,092 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar
+2025-09-29 22:44:57,092 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.11/spring-test-6.2.11.jar
+2025-09-29 22:44:57,161 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.serviceapp:booking-service-registry:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-service-registry\pom.xml.
+2025-09-29 22:44:57,449 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.moviecatalog:booking-moviecatalog-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-moviecatalog-service\pom.xml.
+2025-09-29 22:44:57,641 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.theatreapp:booking-theatre-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-theatre-service\pom.xml.
+2025-09-29 22:44:57,730 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.userapp:booking-user-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-user-service\pom.xml.
+2025-09-29 22:44:57,834 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-ticketbooking-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\pom.xml.
+2025-09-29 22:44:57,900 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-show-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-show-service\pom.xml.
+2025-09-29 22:44:58,519 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom
+2025-09-29 22:44:58,567 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom
+2025-09-29 22:44:58,910 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom
+2025-09-29 22:44:58,920 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom
+2025-09-29 22:45:00,579 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-config-server/src/main/java
+2025-09-29 22:45:00,580 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/main/resources
+2025-09-29 22:45:00,583 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/main/resources
+2025-09-29 22:45:00,585 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-config-server/src/test/java
+2025-09-29 22:45:00,586 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/test/resources
+2025-09-29 22:45:00,865 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 22 sec
+2025-09-29 22:45:00,869 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-29 22:45:01,094 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.configserver:booking-config-server:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-config-server\pom.xml.
+2025-09-29 22:45:01,369 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.6/spring-boot-autoconfigure-3.5.6-sources.jar
+2025-09-29 22:45:01,573 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-config-server/src/main/java
+2025-09-29 22:45:01,573 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/main/resources
+2025-09-29 22:45:01,574 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/main/resources
+2025-09-29 22:45:01,574 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-config-server/src/test/java
+2025-09-29 22:45:01,575 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/test/resources
+2025-09-29 22:45:01,932 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-29 22:45:02,012 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-29 22:45:02,310 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.6/spring-boot-autoconfigure-3.5.6-sources.jar
+2025-09-29 22:45:02,314 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.configserver:booking-config-server:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-config-server\pom.xml.
+2025-09-29 22:45:02,316 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:3.5.6
+2025-09-29 22:45:02,702 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.11/spring-web-6.2.11-sources.jar
+2025-09-29 22:45:03,121 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.11/spring-web-6.2.11-sources.jar
+2025-09-29 22:45:03,126 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:6.2.11
+2025-09-29 22:45:03,173 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-config-server/src/main/java
+2025-09-29 22:45:03,174 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/main/resources
+2025-09-29 22:45:03,175 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/main/resources
+2025-09-29 22:45:03,175 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-config-server/src/test/java
+2025-09-29 22:45:03,175 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-config-server/src/test/resources
+2025-09-29 22:45:03,419 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.11/spring-beans-6.2.11-sources.jar
+2025-09-29 22:45:03,442 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-29 22:45:03,858 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:45:03,874 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:45:03,878 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-config-server\src\test\resources
+2025-09-29 22:45:04,003 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.11/spring-beans-6.2.11-sources.jar
+2025-09-29 22:45:04,008 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:6.2.11
+2025-09-29 22:45:04,139 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.4/micrometer-observation-1.15.4-sources.jar
+2025-09-29 22:45:04,145 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.4/micrometer-observation-1.15.4-sources.jar
+2025-09-29 22:45:04,149 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-observation:1.15.4
+2025-09-29 22:45:04,514 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.4/micrometer-commons-1.15.4-sources.jar
+2025-09-29 22:45:04,519 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.4/micrometer-commons-1.15.4-sources.jar
+2025-09-29 22:45:04,522 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-commons:1.15.4
+2025-09-29 22:45:04,953 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.6/spring-boot-starter-web-3.5.6-sources.jar
+2025-09-29 22:45:04,957 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.6/spring-boot-starter-web-3.5.6-sources.jar
+2025-09-29 22:45:04,961 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:3.5.6
+2025-09-29 22:45:05,491 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.6/spring-boot-starter-json-3.5.6-sources.jar
+2025-09-29 22:45:05,494 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.6/spring-boot-starter-json-3.5.6-sources.jar
+2025-09-29 22:45:05,498 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:3.5.6
+2025-09-29 22:45:05,773 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.6/spring-boot-starter-tomcat-3.5.6-sources.jar
+2025-09-29 22:45:05,776 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.6/spring-boot-starter-tomcat-3.5.6-sources.jar
+2025-09-29 22:45:05,779 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:3.5.6
+2025-09-29 22:45:06,283 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.46/tomcat-embed-core-10.1.46-sources.jar
+2025-09-29 22:45:08,865 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.46/tomcat-embed-core-10.1.46-sources.jar
+2025-09-29 22:45:08,868 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:10.1.46
+2025-09-29 22:45:08,985 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.46/tomcat-embed-websocket-10.1.46-sources.jar
+2025-09-29 22:45:09,084 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.46/tomcat-embed-websocket-10.1.46-sources.jar
+2025-09-29 22:45:09,088 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:10.1.46
+2025-09-29 22:45:09,358 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.11/spring-webmvc-6.2.11-sources.jar
+2025-09-29 22:45:09,645 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.11/spring-webmvc-6.2.11-sources.jar
+2025-09-29 22:45:09,647 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:6.2.11
+2025-09-29 22:45:10,281 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.11/spring-aop-6.2.11-sources.jar
+2025-09-29 22:45:10,449 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.11/spring-aop-6.2.11-sources.jar
+2025-09-29 22:45:10,452 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:6.2.11
+2025-09-29 22:45:10,893 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.11/spring-context-6.2.11-sources.jar
+2025-09-29 22:45:11,892 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.11/spring-context-6.2.11-sources.jar
+2025-09-29 22:45:11,899 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:6.2.11
+2025-09-29 22:45:12,230 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.11/spring-expression-6.2.11-sources.jar
+2025-09-29 22:45:12,348 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.11/spring-expression-6.2.11-sources.jar
+2025-09-29 22:45:12,359 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:6.2.11
+2025-09-29 22:45:12,944 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.5.6/spring-boot-starter-validation-3.5.6-sources.jar
+2025-09-29 22:45:12,944 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.5.6/spring-boot-starter-validation-3.5.6-sources.jar
+2025-09-29 22:45:12,944 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:3.5.6
+2025-09-29 22:45:13,248 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.46/tomcat-embed-el-10.1.46-sources.jar
+2025-09-29 22:45:13,482 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.46/tomcat-embed-el-10.1.46-sources.jar
+2025-09-29 22:45:13,486 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:10.1.46
+2025-09-29 22:45:13,863 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.5/spring-security-crypto-6.5.5-sources.jar
+2025-09-29 22:45:14,069 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.5/spring-security-crypto-6.5.5-sources.jar
+2025-09-29 22:45:14,076 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-crypto:6.5.5
+2025-09-29 22:45:14,273 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.5/httpcore5-5.3.5-sources.jar
+2025-09-29 22:45:14,416 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.5/httpcore5-5.3.5-sources.jar
+2025-09-29 22:45:14,425 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents.core5:httpcore5:5.3.5
+2025-09-29 22:45:14,784 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.5/httpcore5-h2-5.3.5-sources.jar
+2025-09-29 22:45:15,098 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.5/httpcore5-h2-5.3.5-sources.jar
+2025-09-29 22:45:15,101 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents.core5:httpcore5-h2:5.3.5
+2025-09-29 22:45:15,544 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.6/spring-boot-starter-test-3.5.6-sources.jar
+2025-09-29 22:45:15,549 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.6/spring-boot-starter-test-3.5.6-sources.jar
+2025-09-29 22:45:15,551 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-test:3.5.6
+2025-09-29 22:45:16,116 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.6/spring-boot-starter-3.5.6-sources.jar
+2025-09-29 22:45:16,120 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.6/spring-boot-starter-3.5.6-sources.jar
+2025-09-29 22:45:16,124 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter:3.5.6
+2025-09-29 22:45:16,832 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.6/spring-boot-3.5.6-sources.jar
+2025-09-29 22:45:16,969 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.6/spring-boot-3.5.6-sources.jar
+2025-09-29 22:45:16,972 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:3.5.6
+2025-09-29 22:45:17,458 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.6/spring-boot-starter-logging-3.5.6-sources.jar
+2025-09-29 22:45:17,464 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.6/spring-boot-starter-logging-3.5.6-sources.jar
+2025-09-29 22:45:17,468 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-logging:3.5.6
+2025-09-29 22:45:17,799 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.6/spring-boot-test-3.5.6-sources.jar
+2025-09-29 22:45:17,965 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.6/spring-boot-test-3.5.6-sources.jar
+2025-09-29 22:45:17,967 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:3.5.6
+2025-09-29 22:45:18,267 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.6/spring-boot-test-autoconfigure-3.5.6-sources.jar
+2025-09-29 22:45:18,483 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.6/spring-boot-test-autoconfigure-3.5.6-sources.jar
+2025-09-29 22:45:18,486 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:3.5.6
+2025-09-29 22:45:18,777 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4-sources.jar
+2025-09-29 22:45:18,828 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4-sources.jar
+2025-09-29 22:45:18,832 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.activation:jakarta.activation-api:2.1.4
+2025-09-29 22:45:19,514 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.11/spring-core-6.2.11-sources.jar
+2025-09-29 22:45:19,683 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.11/spring-core-6.2.11-sources.jar
+2025-09-29 22:45:19,687 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:6.2.11
+2025-09-29 22:45:20,173 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.11/spring-jcl-6.2.11-sources.jar
+2025-09-29 22:45:20,201 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.11/spring-jcl-6.2.11-sources.jar
+2025-09-29 22:45:20,206 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:6.2.11
+2025-09-29 22:45:20,769 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.11/spring-test-6.2.11-sources.jar
+2025-09-29 22:45:21,294 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.11/spring-test-6.2.11-sources.jar
+2025-09-29 22:45:21,299 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:6.2.11
+2025-09-29 22:45:21,953 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4-sources.jar
+2025-09-29 22:45:21,992 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4-sources.jar
+2025-09-29 22:45:21,996 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xmlunit:xmlunit-core:2.10.4
+2025-09-29 22:46:09,377 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:46:09,379 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:46:09,382 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-config-server\src\test\resources
+2025-09-29 22:48:25,352 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.moviecatalog:booking-moviecatalog-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-moviecatalog-service\pom.xml.
+2025-09-29 22:48:25,959 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:48:25,960 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:48:25,963 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-moviecatalog-service\src\test\resources
+2025-09-29 22:48:26,727 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:48:26,764 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:48:26,769 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-moviecatalog-service\src\test\resources
+2025-09-29 22:52:47,764 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-show-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-show-service\pom.xml.
+2025-09-29 22:52:48,495 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:52:48,496 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:52:48,498 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-show-service\src\test\resources
+2025-09-29 22:52:49,465 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-29 22:52:49,741 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-show-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-show-service\pom.xml.
+2025-09-29 22:52:50,586 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-show-service/src/main/java
+2025-09-29 22:52:50,587 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-show-service/src/main/resources
+2025-09-29 22:52:50,587 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-show-service/src/main/resources
+2025-09-29 22:52:50,587 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-show-service/src/test/java
+2025-09-29 22:52:50,589 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-show-service/src/test/resources
+2025-09-29 22:52:50,993 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-29 22:52:51,400 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:52:51,413 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:52:51,418 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-show-service\src\test\resources
+2025-09-29 22:53:07,252 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.theatreapp:booking-theatre-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-theatre-service\pom.xml.
+2025-09-29 22:53:07,821 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:07,821 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:07,825 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-theatre-service\src\test\resources
+2025-09-29 22:53:08,967 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-29 22:53:09,175 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.theatreapp:booking-theatre-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-theatre-service\pom.xml.
+2025-09-29 22:53:09,819 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-theatre-service/src/main/java
+2025-09-29 22:53:09,819 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-theatre-service/src/main/resources
+2025-09-29 22:53:09,820 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-theatre-service/src/main/resources
+2025-09-29 22:53:09,820 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-theatre-service/src/test/java
+2025-09-29 22:53:09,820 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-theatre-service/src/test/resources
+2025-09-29 22:53:10,118 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-29 22:53:10,474 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:53:10,481 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:10,484 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-theatre-service\src\test\resources
+2025-09-29 22:53:27,571 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-ticketbooking-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\pom.xml.
+2025-09-29 22:53:28,362 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:28,363 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:28,366 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-29 22:53:29,273 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-29 22:53:29,480 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-ticketbooking-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\pom.xml.
+2025-09-29 22:53:29,944 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-ticketbooking-service/src/main/java
+2025-09-29 22:53:29,944 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-ticketbooking-service/src/main/resources
+2025-09-29 22:53:29,945 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-ticketbooking-service/src/main/resources
+2025-09-29 22:53:29,945 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-ticketbooking-service/src/test/java
+2025-09-29 22:53:29,945 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-ticketbooking-service/src/test/resources
+2025-09-29 22:53:30,239 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-29 22:53:30,672 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:53:30,680 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:30,683 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-29 22:53:42,326 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.userapp:booking-user-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-user-service\pom.xml.
+2025-09-29 22:53:42,783 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:42,784 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:53:42,787 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-09-29 22:53:44,098 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-29 22:53:44,264 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.userapp:booking-user-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-user-service\pom.xml.
+2025-09-29 22:53:45,006 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-user-service/src/main/java
+2025-09-29 22:53:45,007 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-user-service/src/main/resources
+2025-09-29 22:53:45,007 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-user-service/src/main/resources
+2025-09-29 22:53:45,007 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-user-service/src/test/java
+2025-09-29 22:53:45,008 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-user-service/src/test/resources
+2025-09-29 22:53:45,331 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-29 22:53:45,833 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:53:45,850 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:53:45,854 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-09-29 22:54:28,344 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:54:28,350 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:54:28,352 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-config-server\src\test\resources
+2025-09-29 22:56:32,514 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,520 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,522 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-moviecatalog-service\src\test\resources
+2025-09-29 22:56:32,559 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,567 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,569 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-show-service\src\test\resources
+2025-09-29 22:56:32,608 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,613 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,616 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-theatre-service\src\test\resources
+2025-09-29 22:56:32,650 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,659 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,678 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-29 22:56:32,715 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,720 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-29 22:56:32,722 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-09-30 09:59:50,525 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-30 10:19:30,581 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookingapp:booking-gatewayapi-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\pom.xml.
+2025-09-30 10:19:31,461 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-properties-migrator/3.5.6/spring-boot-properties-migrator-3.5.6.pom
+2025-09-30 10:19:31,477 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-properties-migrator/3.5.6/spring-boot-properties-migrator-3.5.6.pom
+2025-09-30 10:19:31,545 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-metadata/3.5.6/spring-boot-configuration-metadata-3.5.6.pom
+2025-09-30 10:19:31,550 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-metadata/3.5.6/spring-boot-configuration-metadata-3.5.6.pom
+2025-09-30 10:19:31,803 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-properties-migrator/3.5.6/spring-boot-properties-migrator-3.5.6.jar
+2025-09-30 10:19:31,858 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-properties-migrator/3.5.6/spring-boot-properties-migrator-3.5.6.jar
+2025-09-30 10:19:31,921 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-metadata/3.5.6/spring-boot-configuration-metadata-3.5.6.jar
+2025-09-30 10:19:31,931 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-metadata/3.5.6/spring-boot-configuration-metadata-3.5.6.jar
+2025-09-30 10:19:32,675 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-gatewayapi-service/src/main/java
+2025-09-30 10:19:32,677 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/main/resources
+2025-09-30 10:19:32,679 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/main/resources
+2025-09-30 10:19:32,682 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-gatewayapi-service/src/test/java
+2025-09-30 10:19:32,682 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/test/resources
+2025-09-30 10:19:32,894 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-09-30 10:19:32,897 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-30 10:19:33,208 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookingapp:booking-gatewayapi-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\pom.xml.
+2025-09-30 10:19:33,626 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-properties-migrator/3.5.6/spring-boot-properties-migrator-3.5.6-sources.jar
+2025-09-30 10:19:33,639 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-properties-migrator/3.5.6/spring-boot-properties-migrator-3.5.6-sources.jar
+2025-09-30 10:19:33,644 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-properties-migrator:3.5.6
+2025-09-30 10:19:33,733 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-gatewayapi-service/src/main/java
+2025-09-30 10:19:33,734 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/main/resources
+2025-09-30 10:19:33,734 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/main/resources
+2025-09-30 10:19:33,735 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-gatewayapi-service/src/test/java
+2025-09-30 10:19:33,735 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/test/resources
+2025-09-30 10:19:33,746 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-metadata/3.5.6/spring-boot-configuration-metadata-3.5.6-sources.jar
+2025-09-30 10:19:33,753 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-metadata/3.5.6/spring-boot-configuration-metadata-3.5.6-sources.jar
+2025-09-30 10:19:33,758 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-metadata:3.5.6
+2025-09-30 10:19:34,007 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-30 10:19:34,647 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 10:19:34,666 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 10:19:34,671 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\src\test\resources
+2025-09-30 10:22:59,558 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookingapp:booking-gatewayapi-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\pom.xml.
+2025-09-30 10:22:59,983 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.6/spring-boot-starter-actuator-3.5.6.pom
+2025-09-30 10:22:59,990 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.6/spring-boot-starter-actuator-3.5.6.pom
+2025-09-30 10:23:00,053 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.6/spring-boot-actuator-autoconfigure-3.5.6.pom
+2025-09-30 10:23:00,062 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.6/spring-boot-actuator-autoconfigure-3.5.6.pom
+2025-09-30 10:23:00,119 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.6/spring-boot-actuator-3.5.6.pom
+2025-09-30 10:23:00,123 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.6/spring-boot-actuator-3.5.6.pom
+2025-09-30 10:23:00,177 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.4/micrometer-jakarta9-1.15.4.pom
+2025-09-30 10:23:00,182 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.4/micrometer-jakarta9-1.15.4.pom
+2025-09-30 10:23:00,233 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.4/micrometer-core-1.15.4.pom
+2025-09-30 10:23:00,237 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.4/micrometer-core-1.15.4.pom
+2025-09-30 10:23:00,357 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.pom
+2025-09-30 10:23:00,363 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.pom
+2025-09-30 10:23:00,413 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.13.2/gson-parent-2.13.2.pom
+2025-09-30 10:23:00,420 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.13.2/gson-parent-2.13.2.pom
+2025-09-30 10:23:00,471 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom
+2025-09-30 10:23:00,476 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom
+2025-09-30 10:23:00,532 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom
+2025-09-30 10:23:00,537 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom
+2025-09-30 10:23:00,639 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.11/reactor-core-3.7.11.pom
+2025-09-30 10:23:00,643 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.11/reactor-core-3.7.11.pom
+2025-09-30 10:23:00,710 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.3/reactor-extra-3.5.3.pom
+2025-09-30 10:23:00,715 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.3/reactor-extra-3.5.3.pom
+2025-09-30 10:23:00,775 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.6/spring-boot-starter-cache-3.5.6.pom
+2025-09-30 10:23:00,780 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.6/spring-boot-starter-cache-3.5.6.pom
+2025-09-30 10:23:00,838 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.11/spring-context-support-6.2.11.pom
+2025-09-30 10:23:00,841 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.11/spring-context-support-6.2.11.pom
+2025-09-30 10:23:01,053 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.6/spring-boot-starter-actuator-3.5.6.jar
+2025-09-30 10:23:01,056 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.6/spring-boot-starter-actuator-3.5.6.jar
+2025-09-30 10:23:01,116 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+2025-09-30 10:23:01,169 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.6/spring-boot-actuator-autoconfigure-3.5.6.jar
+2025-09-30 10:23:01,175 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.4/micrometer-core-1.15.4.jar
+2025-09-30 10:23:01,177 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.4/micrometer-jakarta9-1.15.4.jar
+2025-09-30 10:23:01,182 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.4/micrometer-jakarta9-1.15.4.jar
+2025-09-30 10:23:01,184 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.6/spring-boot-actuator-3.5.6.jar
+2025-09-30 10:23:01,213 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+2025-09-30 10:23:01,238 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+2025-09-30 10:23:01,244 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+2025-09-30 10:23:01,278 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.4/micrometer-core-1.15.4.jar
+2025-09-30 10:23:01,281 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.11/reactor-core-3.7.11.jar
+2025-09-30 10:23:01,288 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.6/spring-boot-actuator-autoconfigure-3.5.6.jar
+2025-09-30 10:23:01,303 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.3/reactor-extra-3.5.3.jar
+2025-09-30 10:23:01,307 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.6/spring-boot-actuator-3.5.6.jar
+2025-09-30 10:23:01,338 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.3/reactor-extra-3.5.3.jar
+2025-09-30 10:23:01,350 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.6/spring-boot-starter-cache-3.5.6.jar
+2025-09-30 10:23:01,350 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.11/spring-context-support-6.2.11.jar
+2025-09-30 10:23:01,353 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.6/spring-boot-starter-cache-3.5.6.jar
+2025-09-30 10:23:01,363 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.11/spring-context-support-6.2.11.jar
+2025-09-30 10:23:01,404 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.11/reactor-core-3.7.11.jar
+2025-09-30 10:23:01,692 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 10:23:01,692 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 10:23:01,696 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\src\test\resources
+2025-09-30 10:23:02,019 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-30 10:23:02,485 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookingapp:booking-gatewayapi-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\pom.xml.
+2025-09-30 10:23:02,700 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.6/spring-boot-starter-actuator-3.5.6-sources.jar
+2025-09-30 10:23:02,705 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.6/spring-boot-starter-actuator-3.5.6-sources.jar
+2025-09-30 10:23:02,709 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-actuator:3.5.6
+2025-09-30 10:23:02,824 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.6/spring-boot-actuator-autoconfigure-3.5.6-sources.jar
+2025-09-30 10:23:02,930 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.6/spring-boot-actuator-autoconfigure-3.5.6-sources.jar
+2025-09-30 10:23:02,933 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.6
+2025-09-30 10:23:03,097 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-gatewayapi-service/src/main/java
+2025-09-30 10:23:03,097 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/main/resources
+2025-09-30 10:23:03,097 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/main/resources
+2025-09-30 10:23:03,099 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-gatewayapi-service/src/test/java
+2025-09-30 10:23:03,099 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-gatewayapi-service/src/test/resources
+2025-09-30 10:23:03,101 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.6/spring-boot-actuator-3.5.6-sources.jar
+2025-09-30 10:23:03,158 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.6/spring-boot-actuator-3.5.6-sources.jar
+2025-09-30 10:23:03,161 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:3.5.6
+2025-09-30 10:23:03,288 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.4/micrometer-jakarta9-1.15.4-sources.jar
+2025-09-30 10:23:03,329 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.4/micrometer-jakarta9-1.15.4-sources.jar
+2025-09-30 10:23:03,335 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-jakarta9:1.15.4
+2025-09-30 10:23:03,398 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-30 10:23:03,483 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.4/micrometer-core-1.15.4-sources.jar
+2025-09-30 10:23:03,568 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.4/micrometer-core-1.15.4-sources.jar
+2025-09-30 10:23:03,570 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-core:1.15.4
+2025-09-30 10:23:03,677 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 10:23:03,693 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 10:23:03,697 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\src\test\resources
+2025-09-30 10:23:03,699 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2-sources.jar
+2025-09-30 10:23:03,776 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2-sources.jar
+2025-09-30 10:23:03,780 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.13.2
+2025-09-30 10:23:03,914 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0-sources.jar
+2025-09-30 10:23:03,950 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0-sources.jar
+2025-09-30 10:23:03,952 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.errorprone:error_prone_annotations:2.41.0
+2025-09-30 10:23:04,061 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.11/reactor-core-3.7.11-sources.jar
+2025-09-30 10:23:04,235 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.11/reactor-core-3.7.11-sources.jar
+2025-09-30 10:23:04,237 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor:reactor-core:3.7.11
+2025-09-30 10:23:04,373 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.3/reactor-extra-3.5.3-sources.jar
+2025-09-30 10:23:04,384 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.3/reactor-extra-3.5.3-sources.jar
+2025-09-30 10:23:04,387 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor.addons:reactor-extra:3.5.3
+2025-09-30 10:23:04,504 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.6/spring-boot-starter-cache-3.5.6-sources.jar
+2025-09-30 10:23:04,531 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.6/spring-boot-starter-cache-3.5.6-sources.jar
+2025-09-30 10:23:04,535 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-cache:3.5.6
+2025-09-30 10:23:04,693 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.11/spring-context-support-6.2.11-sources.jar
+2025-09-30 10:23:04,749 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.11/spring-context-support-6.2.11-sources.jar
+2025-09-30 10:23:04,752 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:6.2.11
+2025-09-30 10:23:40,975 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 10:23:40,979 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 10:23:40,982 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\src\test\resources
+2025-09-30 11:08:40,392 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 11:08:40,427 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 11:08:40,433 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\src\test\resources
+2025-09-30 11:32:30,844 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-ticketbooking-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\pom.xml.
+2025-09-30 11:32:31,556 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 11:32:31,585 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 11:32:31,589 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 11:32:32,504 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-30 11:32:32,847 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.showapp:booking-ticketbooking-service:0.0.1-SNAPSHOT @ I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\pom.xml.
+2025-09-30 11:32:33,838 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-ticketbooking-service/src/main/java
+2025-09-30 11:32:33,839 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-ticketbooking-service/src/main/resources
+2025-09-30 11:32:33,840 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-ticketbooking-service/src/main/resources
+2025-09-30 11:32:33,840 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-ticketbooking-service/src/test/java
+2025-09-30 11:32:33,841 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-ticketbooking-service/src/test/resources
+2025-09-30 11:32:34,132 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-30 11:32:34,695 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 11:32:34,719 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 11:32:34,725 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 11:33:58,831 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 11:33:58,838 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 11:33:58,842 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 11:54:47,635 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 11:54:47,640 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 11:54:47,642 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 11:58:28,966 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 11:58:28,971 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 11:58:28,973 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:16:38,298 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:16:38,308 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:16:38,312 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:31:28,546 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-30 12:31:35,347 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-30 12:31:50,594 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-30 12:40:03,167 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:40:03,178 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:40:03,182 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:40:13,373 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:40:13,378 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:40:13,380 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:40:22,170 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:40:22,175 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:40:22,178 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:40:49,869 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:40:49,885 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:40:49,887 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:42:13,296 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:42:13,301 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:42:13,308 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:42:33,052 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:42:33,058 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:42:33,062 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:42:58,029 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-30 12:44:31,164 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:44:31,170 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:44:31,172 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:46:06,657 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:46:06,666 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:46:06,669 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:54:53,089 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:54:53,097 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:54:53,100 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:55:30,213 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:55:30,218 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:55:30,220 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:55:47,413 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:55:47,418 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:55:47,420 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:55:55,724 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 12:55:55,729 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 12:55:55,732 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 12:56:12,839 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-30 13:04:22,263 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 13:04:22,269 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 13:04:22,272 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 13:06:15,080 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 13:06:15,086 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 13:06:15,088 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 15:37:42,962 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 15:37:42,977 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 15:37:42,982 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 15:41:43,752 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 15:41:43,758 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 15:41:43,761 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 15:54:22,653 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 15:54:22,659 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 15:54:22,664 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 15:59:43,296 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 15:59:43,304 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 15:59:43,308 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 15:59:51,241 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 15:59:51,245 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 15:59:51,248 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 16:00:06,788 [LS-org.eclipse.wildwebdeveloper.xml#listener-4] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-30 16:09:58,932 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 16:09:58,957 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 16:09:58,964 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-show-service\src\test\resources
+2025-09-30 16:10:40,655 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 16:10:40,660 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 16:10:40,663 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 16:11:54,948 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 16:11:54,955 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 16:11:54,959 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 16:18:07,486 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 16:18:07,494 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 16:18:07,498 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-09-30 22:45:27,171 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
