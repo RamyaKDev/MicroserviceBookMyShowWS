@@ -21,15 +21,10 @@ import jakarta.servlet.http.HttpServletResponse;
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter{
 
-	private final JwtTokenUtil jwtTokenUtil;
-	
-	private final JwtUserServiceImpl jwtUserServiceImpl;
-
-	public JwtRequestFilter(JwtTokenUtil jwtTokenUtil, JwtUserServiceImpl jwtUserServiceImpl) {
-	
-		this.jwtTokenUtil = jwtTokenUtil;
-		this.jwtUserServiceImpl = jwtUserServiceImpl;
-	}
+	@Autowired
+	private JwtTokenUtil jwtTokenUtil;
+	@Autowired
+	private JwtUserServiceImpl jwtUserServiceImpl;
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
@@ -72,6 +67,7 @@ public class JwtRequestFilter extends OncePerRequestFilter{
 				SecurityContextHolder.getContext().setAuthentication(authToken);
 			}
 		}
+		System.out.println("call filterchain do filter");
 		// this will be called first - for /register and /authenticate
 		filterChain.doFilter(request, response);
 

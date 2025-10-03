@@ -52,12 +52,14 @@ public class JwtUserController {
 		return ResponseEntity.status(HttpStatus.CREATED).build();
 	}
 	
-	//http://localhost:8085/users-service/v1/authenticate
+	//http://localhost:8085/users-service/v1/login
 	//user logging in and getting the token
-	@PostMapping("/authenticate")
+	@PostMapping("/login")
 	public ResponseEntity<String> authenticate(@RequestBody JwtUserRequest userRequest){
 		// get the username
+		System.out.println("Inside controller");
 		String username = userRequest.getUsername();
+		System.out.println(username);
 		// check if the name is available in the db
 		UserDetails userdetails =  userServiceImpl.loadUserByUsername(username);
 		String token = jwtTokenUtil.generateToken(userdetails);

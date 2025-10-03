@@ -52,7 +52,7 @@ public WebConfig(JwtRequestFilter jwtRequestFilter, JwtAuthenticationEntryPoint 
 		return http
 			 .csrf(csrf->csrf.disable())
 		 	 .authorizeHttpRequests(httpRequest-> httpRequest
-		 		.requestMatchers("/users-service/v1/register","/users-service/v1/authenticate").permitAll()
+		 		.requestMatchers("/users-service/v1/register","/users-service/v1/login").permitAll()
 		 		// authorize users with role as admin and user
 		 		.requestMatchers("/movies-service/v1/movies/**","/shows-service/v1/shows/**","/theatres-service/v1/theatres/**","/bookings-service/v1/bookings/**","/users-service/v1/users/**").hasAnyAuthority("ADMIN","USER")
 		 		// authorize users with role as admin 
