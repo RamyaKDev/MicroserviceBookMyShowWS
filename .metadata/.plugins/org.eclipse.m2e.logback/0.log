@@ -2278,3 +2278,965 @@ Caused by: java.lang.IllegalStateException: Unexpected null value present!
 2025-09-30 16:18:07,494 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-09-30 16:18:07,498 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
 2025-09-30 22:45:27,171 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-01 09:46:47,424 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-01 09:47:23,864 [Worker-15: Launching booking-service-registry - BookingServiceRegistryApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:23,906 [Worker-15: Launching booking-service-registry - BookingServiceRegistryApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 09:47:23,915 [Worker-15: Launching booking-service-registry - BookingServiceRegistryApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-service-registry\src\test\resources
+2025-10-01 09:47:26,758 [Worker-17: Launching booking-config-server - BookingConfigServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:26,790 [Worker-17: Launching booking-config-server - BookingConfigServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 09:47:26,797 [Worker-17: Launching booking-config-server - BookingConfigServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-config-server\src\test\resources
+2025-10-01 09:47:29,309 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:29,344 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 09:47:29,353 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-gatewayapi-service\src\test\resources
+2025-10-01 09:47:32,937 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:32,967 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 09:47:32,976 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-moviecatalog-service\src\test\resources
+2025-10-01 09:47:35,847 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:35,881 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 09:47:35,888 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-show-service\src\test\resources
+2025-10-01 09:47:37,797 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:37,826 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 09:47:37,834 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-theatre-service\src\test\resources
+2025-10-01 09:47:39,667 [Worker-8: Ready state poller] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-01 09:47:39,745 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:39,775 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 09:47:39,779 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-01 09:47:41,487 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:41,507 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 09:47:41,514 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-10-01 09:47:55,449 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-01 09:48:06,781 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 11:31:45,230 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 11:31:45,248 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 11:31:45,256 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-show-service\src\test\resources
+2025-10-02 11:31:45,305 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 11:31:45,314 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 11:31:45,320 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 11:32:14,929 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-02 11:56:28,934 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 11:56:28,963 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 11:56:28,968 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-10-02 11:57:01,245 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 11:57:01,254 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 11:57:01,259 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-10-02 12:01:51,566 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 12:01:51,572 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 12:01:51,576 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-10-02 12:02:59,892 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 12:02:59,897 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 12:02:59,901 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-10-02 12:11:40,980 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 12:11:40,990 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 12:11:40,994 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-10-02 16:09:21,547 [Worker-29: Launching booking-user-service - BookingUserServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 16:09:21,563 [Worker-29: Launching booking-user-service - BookingUserServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 16:09:21,568 [Worker-29: Launching booking-user-service - BookingUserServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-user-service\src\test\resources
+2025-10-02 16:27:58,602 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 16:27:58,625 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 16:27:58,631 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 16:28:05,468 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 16:28:15,234 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 16:34:13,731 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 16:34:13,739 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 16:34:13,743 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 16:34:19,985 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 16:34:29,159 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 16:52:28,050 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 16:52:30,219 [Worker-34: Launching booking-ticketbooking-service - BookingTicketbookingServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 16:52:30,227 [Worker-34: Launching booking-ticketbooking-service - BookingTicketbookingServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 16:52:30,230 [Worker-34: Launching booking-ticketbooking-service - BookingTicketbookingServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 16:52:47,771 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 16:52:47,777 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 16:52:47,780 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 16:53:00,196 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:04:16,344 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:04:16,352 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:04:16,356 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:04:22,898 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:04:31,838 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:05:13,704 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:05:26,072 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:09:51,389 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:09:51,400 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:09:51,403 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:09:59,113 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:10:09,151 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:11:07,023 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:11:08,988 [Worker-33: Launching booking-ticketbooking-service - BookingTicketbookingServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:11:08,994 [Worker-33: Launching booking-ticketbooking-service - BookingTicketbookingServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:11:08,997 [Worker-33: Launching booking-ticketbooking-service - BookingTicketbookingServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:11:17,544 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:14:21,267 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:14:21,273 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:14:21,277 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:14:40,175 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:14:54,747 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:18:24,901 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:18:34,432 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:30:42,095 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-02 17:50:44,373 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:50:44,400 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:50:44,408 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:52:08,795 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:52:08,802 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:52:08,806 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:52:15,465 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:52:24,698 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:53:14,162 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:53:14,171 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:53:14,174 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:53:20,712 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:53:29,247 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:56:05,045 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:56:05,050 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:56:05,053 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:56:13,954 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:56:20,627 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:58:35,073 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 17:58:35,083 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 17:58:35,086 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 17:58:41,162 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 17:58:47,708 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 18:00:17,352 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 18:00:17,359 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 18:00:17,362 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 18:00:23,538 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:62)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:229)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 18:00:29,640 [LS-org.eclipse.languageserver.languages.springboot#listener-0] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Unexpected null value present!
+Caused by: java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$19(LanguageServerWrapper.java:938)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:938)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComplyAsync(LanguageServiceAccessor.java:226)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:475)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:54)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-10-02 18:09:24,156 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-02 18:09:24,164 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-02 18:09:24,166 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\MicroserviceBookMyShowWS\booking-ticketbooking-service\src\test\resources
+2025-10-02 22:42:50,415 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

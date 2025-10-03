@@ -45,7 +45,6 @@ public class Show {
     private LocalTime showTime;
     private double price;
     private int movieId;
-    // Reference to Theatre Service
     private int theatreId;
     private int totalNoOfSeats;
     

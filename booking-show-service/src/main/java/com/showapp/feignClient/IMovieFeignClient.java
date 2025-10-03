@@ -8,7 +8,7 @@ import com.showapp.model.Movie;
 
 //this is the client for movie service
 //pass the name of the service you want to call
-@FeignClient(name = "movies-service", url = "http://localhost:8081/movies-service/v1")
+@FeignClient(name = "movie-catalog", url = "http://localhost:8081/movies-service/v1")
 public interface IMovieFeignClient {
 
     @GetMapping("/movies/movieId")
