@@ -9,6 +9,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.CollectionTable;
+import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -31,15 +32,16 @@ public class Booking {
 	@Id
 	@GeneratedValue(generator = "booking_gen", strategy = GenerationType.AUTO)
 	@SequenceGenerator(name = "booking_gen", sequenceName = "booking_seq", initialValue = 151, allocationSize = 151)
-	private Integer BookingId;
+	private Integer bookingId;
 
 	private int numberOfSeats;
-	@JsonFormat(pattern = "yyyy-MM-dd")
-	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+//	@JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
+//	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
 	private LocalDateTime bookingTime;
 	private double totalPrice;
 
 	@Enumerated(EnumType.STRING)
+	//@Column(nullable = false)
 	private BookingStatus bookingStatus;
 	
 	private int showId;   // reference to Show service
@@ -48,8 +50,9 @@ public class Booking {
 //	private User user; // reference to User Service
 //	private Show show; // reference to Show Service
 
-	@ElementCollection
-	@CollectionTable(name = "SeatNumbers", joinColumns = @JoinColumn(name = "booking_id"))
-	private List<String> seatNumbers;
+    @ElementCollection
+    @CollectionTable(name = "booking_seats", joinColumns = @JoinColumn(name = "booking_id"))
+    @Column(name = "seat_number")
+    private List<String> seatNumbers;
 
 }

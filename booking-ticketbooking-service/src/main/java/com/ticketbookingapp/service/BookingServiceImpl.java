@@ -13,6 +13,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -46,7 +47,7 @@ public class BookingServiceImpl implements IBookingService{
 		this.bookingRepository = bookingRepository;
 		this.restTemplate = restTemplate;
 	}
-
+	
 	@Override
 	@CircuitBreaker(name = "booking-cbservice",fallbackMethod = "fallbackcreatebooking")
 	public BookingDto createBooking(BookingDto bookingDto,String jwtToken) {
@@ -65,9 +66,15 @@ public class BookingServiceImpl implements IBookingService{
         	throw new ShowNotFoundException("Not enough seats are available ");
         }
         
+        //Validate numberOfSeats and seatNumbers
+        if (bookingDto.getNumberOfSeats() <= 0) {
+            throw new ShowNotFoundException("Number of seats must be > 0");
+        }
+        
+
         //check seatNumbers[A1,A2,A3] and noOfSeats[3] are equal
         //if seatNumbers[A1,A2] and noOfSeats[3] will not work
-        if(bookingDto.getSeatNumbers().size() != bookingDto.getNumberOfSeats()) {
+        if(bookingDto.getSeatNumbers() == null || bookingDto.getSeatNumbers().size() != bookingDto.getNumberOfSeats()) {
         	throw new ShowNotFoundException("Seat number and NoOfSeats must be equal");
         }
         
@@ -85,6 +92,10 @@ public class BookingServiceImpl implements IBookingService{
     
         //Step 5:   Calculate price
        double price=show.getPrice() * bookingDto.getNumberOfSeats();
+      //Validate Price
+       if (price <= 0) {
+    	    throw new BookingNotFoundException("Price must be > 0");
+    	}
         
        //Step 6: setting values to booking class
         Booking booking=new Booking();
@@ -96,10 +107,16 @@ public class BookingServiceImpl implements IBookingService{
         booking.setBookingTime(LocalDateTime.now());
         booking.setTotalPrice(price);
         booking.setBookingStatus(BookingStatus.PENDING);
+        //validate before seatnumber
+        if (bookingDto.getNumberOfSeats() <= 0) {
+            throw new IllegalArgumentException("Number of seats must be greater than 0");
+        }
+        booking.setSeatNumbers(bookingDto.getSeatNumbers());
         
 		Booking booked= bookingRepository.save(booking);
 		// convert to dto and send to client
 		return mapper.map(booked, BookingDto.class);
+		
 		
 	}
 	
@@ -147,10 +164,10 @@ public class BookingServiceImpl implements IBookingService{
 
 	//fallback method
 		//Here return Type CartDto is changed to Type 
-		public BookingDto fallbackAddToCart(Exception e) {
-			System.out.println(e.getMessage());
-			return new BookingDto();
-			//return new Failure("Technical Error");
+	 public ResponseEntity<BookingDto> fallbackcreatebooking(BookingDto bookingDto, String jwtToken, Exception e) {
+		    BookingDto errorResponse = new BookingDto();
+		    errorResponse.setErrorMessage("Booking service temporarily unavailable. Try again later.");
+		    return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body(errorResponse);
 		}
 		
 	
@@ -251,15 +268,12 @@ public class BookingServiceImpl implements IBookingService{
             throw new ShowNotFoundException("Show not found for booking ");
         }
         
-        LocalTime now = LocalTime.now();
-        if (show.getShowTime().isBefore(now)) {
-            throw new ShowNotFoundException("Cannot cancel past or ongoing shows!");
-        }
+       
         
-      //if show time is 9pm, we can cancel it before 7 pm(deadline).. once 7pm is passed we cant cancel it.
+      //if show time is 9pm, we can cancel it before 7 pm(deadline).. once 7pm is passed we can't cancel it.
     
-         if (ChronoUnit.HOURS.between(LocalDateTime.now(), show.getShowTime()) < 2) {
-             throw new RuntimeException("Cancellation only allowed 2 hours before show");
+         if (ChronoUnit.HOURS.between(LocalTime.now(), show.getShowTime()) < 2) {
+             throw new RuntimeException("Cancellation only allowed 2 hours before show..Cannot cancel past or ongoing shows!");
          }
 
 		booking.setBookingStatus(BookingStatus.CANCELLED);

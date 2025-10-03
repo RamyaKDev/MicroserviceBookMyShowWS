@@ -26,8 +26,8 @@ public class BookingController {
 	        this.bookingService = bookingService;
 	    }
 	   
-	 // http://localhost:8084/bookings-service/v1/admin/bookings
-	    @PostMapping("/admin/bookings")
+	 // http://localhost:8084/bookings-service/v1/bookings
+	    @PostMapping("/bookings")
 	    public ResponseEntity<BookingDto> createBooking(@RequestBody BookingDto bookingDto,@RequestHeader("Authorization") String token) {
 	    	System.out.println(bookingDto);
 	    	BookingDto booking=bookingService.createBooking(bookingDto, token);
@@ -64,16 +64,16 @@ public class BookingController {
 	    }
 	
 	    
-	 // http://localhost:8084/bookings-service/v1/admin/bookings
-	    @PutMapping("/admin/bookings")
+	 // http://localhost:8084/bookings-service/v1/bookings
+	    @PutMapping("/bookings")
 	    public ResponseEntity<Void> updateBooking(@RequestBody BookingDto bookingDto) {
 	    	System.out.println(bookingDto);
 	    	bookingService.updateBooking(bookingDto);
 	        return ResponseEntity.ok().build();
 	    }
 
-	    // http://localhost:8084/bookings-service/v1/admin/bookings/bookingId/1
-	    @DeleteMapping("/admin/bookings/bookingId/{bookingId}")
+	    // http://localhost:8084/bookings-service/v1/bookings/bookingId/1
+	    @DeleteMapping("/bookings/bookingId/{bookingId}")
 	    public ResponseEntity<String> cancelBooking(@PathVariable int bookingId,@RequestHeader("Authorization") String token) {
 	    	 String response =bookingService.cancelBooking(bookingId, token);
 	    	

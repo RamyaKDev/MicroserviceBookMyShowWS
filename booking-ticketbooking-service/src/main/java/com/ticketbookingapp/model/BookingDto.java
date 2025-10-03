@@ -22,4 +22,6 @@ public class BookingDto {
 	private int showId; // reference to Show Service
 	
 	private List<String> seatNumbers;
+    // extra field for error handling
+    private String errorMessage;
 }
